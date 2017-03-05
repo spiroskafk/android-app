@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/new_game"
+          android:title="Menu"
+          android:showAsAction="ifRoom"/>
+    
+    <item android:id="@+id/add_marker"
+          android:title="Προσθήκη σημείου" />
+    
+    <item android:id="@+id/get_direction"
+          android:title="Λήψη οδηγιών" />
+    
+    <item android:id="@+id/show_markers"
+          android:title="Εμφάνιση σημείων" />
+    
+    <item android:id="@+id/clear_map"
+          android:title="Καθαρισμός χάρτη" />
+    
+    <item android:id="@+id/configuration"
+          android:title="Ρυθμίσεις εφαρμογής"/>
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <Button
+        android:id="@+id/add_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="68dp"
+        android:text="Add item" />
+
+    <Button
+        android:id="@+id/retrieve_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/add_item"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/add_item"
+        android:text="Retrieve item" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/add_item"
+        android:layout_below="@+id/add_item"
+        android:layout_marginTop="122dp"
+        android:text="id" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/id"
+        android:layout_alignBottom="@+id/id"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/id"
+        android:text="title" />
+
+</RelativeLayout>

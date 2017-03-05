@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CeidProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_msg">Enter information</string>
+    <string name="dialog_title">Dialog</string>
+    <string name="pick_color">Pick Color</string>
+    <string name="facebook_app_id">182687498499924</string>
+    <string-array name="category">
+        <item >Cafe-Bar</item>
+        <item >Restaurant</item>
+        <item >Cinema</item>
+        <item >Shopping Mall</item>
+        </string-array>
+        
+    <string-array name="directions_type">
+        <item >Driving</item>
+        <item >Walking</item>
+        <item >Biking</item>
+    </string-array>
+    
+    <string-array name="way_of_direction">
+        <item >By GPS</item>
+        <item >By Text</item>
+        <item >By Choosing Marker</item>
+    </string-array>
+        
+
+</resources>
